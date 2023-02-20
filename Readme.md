@@ -24,3 +24,9 @@ Content-Type: application/json
 }
 ```
 
+## Docker
+Запуск контейнера:
+```bash
+docker run --rm -d -p 80:80 phpprogrammist/yc-jwt-generator
+```
+
